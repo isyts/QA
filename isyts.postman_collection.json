@@ -72,7 +72,7 @@
 			"response": []
 		},
 		{
-			"name": "Update",
+			"name": "Upd",
 			"request": {
 				"method": "PUT",
 				"header": [
@@ -85,6 +85,10 @@
 						"value": "application/json"
 					}
 				],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \"id\": 16,  \"category\": {    \"id\": 16,    \"name\": \"n\"  },  \"name\": \"valeran\",  \"photoUrls\": [    \"string\"  ],  \"tags\": [    {      \"id\": 0,      \"name\": \"n\"    }  ],  \"status\": \"available\"}"
+				},
 				"url": {
 					"raw": "https://petstore.swagger.io/v2/pet",
 					"protocol": "https",
