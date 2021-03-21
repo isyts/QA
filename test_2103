@@ -1,0 +1,81 @@
+4.1) Checking the cooking time of coffee
+Precondition: customer ordered coffee
+Steps:
+1. Robot placed an order to the kitchen;
+2. Robot took the order from the kitchen.
+Expected result:
+Coffee received in 1 minute
+
+4.2) Checking the cooking time of tea
+Precondition: customer ordered tea
+Steps:
+1. Robot placed an order to the kitchen;
+2. Robot took the order from the kitchen.
+Expected result:
+Tea received in 0.5 minutes
+
+4.3) Checking the cooking time of water
+Precondition: customer ordered water
+Steps:
+1. Robot placed an order to the kitchen;
+2. Robot took the order from the kitchen.
+Expected result:
+Water received in 0 minutes
+
+5.1) Checking delivery time of coffee
+Precondition: customer ordered coffee
+Steps:
+1. Robot accepted the order and went to the kitchen;
+2. Robot placed an order for the kitchen;
+3. Robot took the order from the kitchen and gave it to the client.
+Expected result:
+Coffee delivered in 2 minutes
+
+5.2) Checking the delivery time of tea.
+Precondition: customer ordered tea
+Steps:
+1. Robot accepted the order and went to the kitchen;
+2. Robot placed an order for the kitchen;
+3. Robot took the order from the kitchen and gave it to the client.
+Expected result:
+Tea delivered in 1.5 minutes
+
+5.3) Checking the delivery time of water.
+Precondition: customer ordered tea
+Steps:
+1. Robot accepted the order and went to the kitchen;
+2. Robot placed an order for the kitchen;
+3. Robot took the order from the kitchen and gave it to the client.
+Expected result:
+Water delivered in 1 minute
+
+5.4) Checking the delivery of the maximum number of drinks.
+Precondition: customer ordered 5 drinks
+Steps:
+1. Robot accepted the order and went to the kitchen
+2. Robot placed an order for the kitchen
+3. Robot took the order from the kitchen and gave it to the client
+Expected result:
+Received 5 drinks 
+
+5.5) Checking the delivery above the maximum number of drinks.
+Precondition: customer ordered 6 drinks
+Steps:
+1. Robot accepted the order and went to the kitchen
+2. Robot placed an order for the kitchen
+3. Robot took the order from the kitchen and gave it to the client
+Actual result:
+Received 5 drinks at a time
+Expected result:
+Received 6 drinks at a time
+
+
+5.6) Checking the delivery of drinks with the issue of change
+Precondition: customer ordered a drink
+Steps:
+1. Robot accepted the order and went to the kitchen
+2. Robot placed an order for the kitchen
+3. Robot has replenished the cash at the checkout
+3. Robot took the order from the kitchen and gave it to the client
+Expected result:
+Received drink and change
