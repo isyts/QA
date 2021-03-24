@@ -1,0 +1,18 @@
+{
+  "id": 1616,
+  "category": {
+    "id": 1616,
+    "name": "string"
+  },
+  "name": "valera",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
